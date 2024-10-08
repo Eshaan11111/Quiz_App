@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <style>
+            body{
+                background-color:#FEFF9F;
+                text-align:center;
+        }
+            button{
+                background-color:#BCF2F6;
+        }
+            ul{
+                display:flex;
+                justify-content:space-between;
+        }
+            li{
+                list-style-type:none;
+
+        }
+            a{
+                color:yellow;
+                text-decoration: none;
+        }
+            #bottom img{
+                width:90px;
+                height:90px;
+        }
+            #top{
+                background-image:url("https://media.gettyimages.com/id/1348235111/photo/innovation-and-new-ideas-lightbulb-concept-with-question-mark.jpg?s=612x612&w=gi&k=20&c=JH1uYkBjgUKVNZuoeXwXbsyHtD0LFOcvzc7uv4ovYlA=");
+                background-size:cover;
+                background-repeat:no-repeat;
+                padding-bottom:200px;
+        }
+            #middle{
+                color:blue;
+        }
+            #bottom{
+                display:flex;
+                gap:50px;
+        }
+        </style>
+    </head>
+    <body>
+        <div id="top">
+            <nav> 
+                <ul>
+                    <li> <a href="#">Home</a> </li>
+                    <li> <a href="#">General Knowledge</a> </li>
+                    <li> <a href="#">Mathematics</a> </li>
+                    <li> <a href="#">Science</a> </li>
+                    <li> <a href="#">Question Bank</a> </li>
+                </ul>
+            </nav>
+        </div>
+        <b> <p id="middle">Hello</p> </b>
+        <div id="bottom"> 
+            <div id="one"> 
+                <img src="https://media.baamboozle.com/uploads/images/26489/1589415798_279983">
+                <p>GK encourages the students to think on their own and be responsibe for their actions. It might also help the student to get ready for competitive exams. GK questions test the candidate's analylitical and problem solving abilities. It helps to develop reasoning and logical sklills.</p>
+                <button>Start GK Quiz</button>
+            </div>
+            <div id="two"> 
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSajsqjGXZgBU1LOb4hjr5A3bFlFX8A7wF2sA&s">
+                <p>Quizzes like this helps to asses the mathematical skills, proficiency and aptitude of the students. The objective of the quiz competition was to encourage students to look beyond their textual knowledge and establish a relationship between theory and application of the learnt concepts.</p>
+                <button>Start GK Quiz</button>
+            </div>
+            <div id="three"> 
+                <img src="https://cdn.vectorstock.com/i/1000x1000/27/90/science-and-education-flat-design-circle-shaped-vector-5312790.webp">
+                <p>Science quiz questions undoubtedly help students in various ways. They teach students about various concepts in a fun and interesting way. These questions add knowledge to their brains and add depth to their understanding of the topics studied in school.</p>
+                <button>Start GK Quiz</button>
+            </div>
+        </div>
+        <script> 
+            let name= prompt("Please enter your name:")
+            document.getElementById("middle").innerHTML="Hello " + name + ", welcome to Tech Learner. Your name is now registered."
+        </script>
+    </body>
+</html>
